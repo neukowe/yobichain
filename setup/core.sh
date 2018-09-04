@@ -20,6 +20,11 @@ rpcuser=$1
 rpcpassword=$2
 db_admin_user=$3
 db_admin_pass=$4
+chainname=$5
+networkport=$6
+rpcport=$7
+sendgrid_api_key=$8
+
 
 if ! id $linux_admin_user >/dev/null 2>&1; then
 	# Setting up user account
